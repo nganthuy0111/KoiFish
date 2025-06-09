@@ -1,0 +1,48 @@
+.full_body {
+  margin-top: 80px;
+  border-radius: 8px;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.tour__body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.farm-card {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  overflow: hidden;
+  border: 2px solid hsla(0, 0%, 20%, 0.849);
+  border-radius: 8px;
+}
+
+.farm-card img {
+  max-height: 150px;
+}
+
+.ant-card-meta-description {
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.linkDetails {
+  color: orange;
+  font-weight: bold;
+}
+
+.farm-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.777);
+  border: 2px solid black;
+}

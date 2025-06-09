@@ -1,0 +1,116 @@
+.farm-detail-container {
+  margin-top: 125px;
+  padding: 24px;
+  background-color: #f0f2f5;
+  margin-bottom: 50px;
+}
+
+.image-section {
+  text-align: center;
+}
+
+.farm-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.additional-images {
+  margin-top: 16px;
+}
+
+.additional-farm-image {
+  max-width: 100%;
+  height: 120px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.info-section {
+  padding: 16px;
+}
+
+.details-section {
+  margin-top: 16px;
+}
+
+.koi-fish-section {
+  margin-top: 24px;
+  position: relative;
+}
+
+.pagination-buttons.top-right {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.koi-fish-card-item {
+  border: none;
+}
+
+.koi-fish-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.koi-fish-avatar {
+  margin-top: 8px;
+}
+
+.next-button,
+.prev-button {
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.go-back-button {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.carousel-slide {
+  padding: 0 8px;
+}
+
+.koi-fish-card-item {
+  margin: 0 auto;
+}
+
+.ant-carousel .slick-slide {
+  display: inline-block;
+}
+
+.koi-fish-card .ant-card-body {
+  padding: 0;
+  width: 50vw;
+}
+
+.koi-fish-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Đảm bảo các slide hiển thị đúng kích thước */
+.ant-carousel .slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.ant-carousel .slick-track {
+  display: flex !important;
+}
+
+.koi-fish-section .ant-card {
+  background: none;
+  border: none;
+}
+.farmName {
+  color: orange;
+}

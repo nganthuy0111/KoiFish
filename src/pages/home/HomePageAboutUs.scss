@@ -1,0 +1,36 @@
+.hp-aboutus-container {
+  width: 100vw;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 100px 0;
+
+  .hp-aboutus-video {
+    width: 47%;
+
+    video {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .hp-aboutus-detail {
+    width: 47%;
+
+    .hp-aboutus-detail__experience {
+      display: flex;
+      justify-content: space-between;
+
+      .ex-title {
+        color: #ff8a33;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .ex-content {
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.account-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Manage information */
+.profile-information {
+  width: 48%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-information-header {
+  background-image: linear-gradient(to right, #3b82f6, #7c3aed);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+
+  span {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.avatar-container {
+  position: relative;
+  display: inline-block;
+
+  .user-image {
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s, filter 0.3s;
+  }
+  
+  .upload-button {
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.information-container {
+  padding: 20px;
+}
+
+.information-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  .information-item {
+    flex: 1;
+    width: 48%;
+    position: relative;
+
+    .item-title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .item-content {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      width: 100%;
+      padding: 0;
+      .detail {
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        padding: 5px;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
+    .item-content span {
+      font-size: 16px;
+    }
+
+    .item-content span:first-child {
+      line-height: 1;
+      margin-right: 10px;
+      font-size: 20px;
+      align-items: center;
+    }
+  }
+
+  .information-item:first-child {
+    margin-right: 30px;
+  }
+}
+
+.edit-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #555;
+  display: none;
+}
+
+.information-item:hover .edit-button {
+  display: inline-block;
+}

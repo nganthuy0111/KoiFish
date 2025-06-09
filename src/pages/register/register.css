@@ -1,0 +1,71 @@
+.btn-signup {
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff8a33;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-signup:hover {
+  background-color: #0d0b1ac4;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-signup:active {
+  background-color: #ff6a0a; 
+  box-shadow: none;
+}
+
+a[href="/login"] {
+  color: #ff8a33; 
+  font-weight: bold; 
+}
+
+a[href="/login"]:hover {
+  color: #ff6a0a; 
+  text-decoration: underline;
+}
+
+.form-items-register {
+  width: 100%;
+}
+
+.title-register {
+  font-family: "Arial, sans-serif";
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: center; /* Center the content */
+  align-items: center; /* Align items vertically */
+  margin-top: 20px; /* Add space above the footer */
+  font-size: 16px; /* Adjust font size */
+}
+
+.footer-text {
+  color: #666; /* Gray color for the text */
+  margin-right: 5px; /* Space between text and link */
+}
+
+.footer-link {
+  color: #ff8a33; /* Highlight color for the link */
+  cursor: pointer; /* Pointer cursor for the link */
+  font-weight: bold; /* Make the link bold */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.footer-link:hover {
+  color: #d88d30; /* Darker shade on hover */
+}
+

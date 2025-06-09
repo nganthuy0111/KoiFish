@@ -1,0 +1,20 @@
+.titlecart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btncart{
+    color: orange;
+}
+.countcart {
+    position: relative; 
+    margin-left: 20px;
+  }
+  
+  .countcart .ant-badge {
+    font-size: 20px !important; /* Kích thước chữ cho số lượng */
+  }
+  
+  .countcart .anticon {
+    font-size: 40px !important; /* Kích thước biểu tượng giỏ hàng */
+  }

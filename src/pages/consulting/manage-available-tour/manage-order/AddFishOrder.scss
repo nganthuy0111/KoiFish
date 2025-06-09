@@ -1,0 +1,19 @@
+.add-order-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 50px;
+
+  .koi-fish-picker {
+    width: 56vw;
+  }
+
+  .price-calculator {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 36vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+}

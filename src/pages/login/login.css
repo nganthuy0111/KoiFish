@@ -1,0 +1,71 @@
+
+.loginWrapper{
+  
+.login-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Arial, sans-serif";
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.signUp {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.signup-link {
+  color: #ff8a33;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.forgotPassword {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.forgot-password-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.or-text {
+  text-align: center;
+  margin: 0px 0;
+  font-size: 14px;
+  color: gray;
+}
+
+/* Button Styles */
+.login-button {
+  height: 40px;
+  width: 100%;
+  border-radius: 60px;
+}
+
+
+/* Modal Styles */
+.forgot-password-modal,
+.email-confirmation-modal {
+  text-align: center;
+  padding: 20px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.forgot-icon,
+
+.email-icon {
+  width: 50px;
+  height: 50px;
+}
+  
+}

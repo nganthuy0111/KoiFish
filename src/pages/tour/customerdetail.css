@@ -1,0 +1,59 @@
+/* CSS (customerbookingdetail.css) */
+.customer-booking-detail {
+    margin-top: 148px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .customer-details h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .customer-details label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .tickets-overview {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tour-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .overview-pricing p {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 16px;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #e47911;
+    text-align: right;
+  }
+  
+  .next-step-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-step-button:hover {
+    background-color: #e08900;
+  }
+  

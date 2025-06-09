@@ -1,0 +1,112 @@
+.tour-booking {
+  margin-top: 148px;
+  margin-bottom: 100px;
+}
+
+.booking-details {
+  margin-bottom: 20px;
+}
+
+.tickets-overview {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+}
+
+.ticket-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ticket-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ticket-controls .ant-btn {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.ticket-controls span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tour-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tour-info img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 15px;
+  border: 1px solid #ddd;
+}
+
+.overview-pricing p {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+.total-price {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #e47911;
+  text-align: right;
+}
+
+.next-step-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.next-step-button:hover {
+  background-color: #e08900;
+}
+
+.ant-steps-item-title {
+  font-weight: bold;
+  color: #555;
+}
+
+.ant-steps-item-active .ant-steps-item-title {
+  color: #ff9c00;
+}
+
+.ant-steps-item-active .ant-steps-item-icon {
+  background-color: #ff9c00;
+  border-color: #ff9c00;
+}
+
+.ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}

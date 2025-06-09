@@ -1,0 +1,60 @@
+.tour-detail-container {
+  margin-top: 125px;
+  padding: 24px;
+  background-color: #f0f2f5;
+}
+
+.image-section {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.image-section-top {
+  height: 355px;
+}
+
+.main-image {
+  height: 100%;
+  width: 476px;
+  border-radius: 8px;
+}
+
+.info-section {
+  padding: 16px;
+}
+
+.details-section {
+  margin-top: 16px;
+}
+
+.gallery-section {
+  margin-top: 24px;
+}
+
+.carousel-slide {
+  padding: 0 8px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
+
+.book-now {
+  background-color: #ff8c00;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.price {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.detail-icon {
+  color: #ff8c00;
+  font-size: 16px;
+}

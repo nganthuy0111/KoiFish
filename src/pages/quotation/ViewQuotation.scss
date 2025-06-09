@@ -1,0 +1,90 @@
+.quotation-container {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  padding: 0px 150px;
+
+  .quotation-title {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .quotation-sending {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    .sale-staff-info {
+      display: flex;
+      flex-direction: column;
+
+      strong {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      span {
+        font-size: 14px;
+      }
+    }
+
+    .customer-booking-info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .table-of-content {
+    margin-top: 120px;
+    width: 100%;
+  }
+
+  .sumary-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  .quotation-signature {
+    font-family: "Rock Salt", cursive;
+    font-size: 26px;
+    font-weight: 400;
+    color: #333;
+    margin-right: 150px;
+  }
+}
+
+.payment-buttons__button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.payment-buttons__button--payment {
+  background-color: #4caf50;
+  color: white;
+}
+
+.payment-buttons__button--cancel {
+  background-color: #f44336;
+  color: white;
+}
+
+.payment-buttons__button:hover {
+  transform: translateY(-2px);
+}
+
+.payment-buttons__button--payment:hover {
+  background-color: #45a049;
+}
+
+.payment-buttons__button--cancel:hover {
+  background-color: #e53935;
+}

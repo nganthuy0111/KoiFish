@@ -1,0 +1,94 @@
+.tour-payment {
+  margin-top: 148px;
+  margin-bottom: 148px;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}
+
+.steps-container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.notification-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.notification-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notification-content p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.notification-content .ant-tag {
+  font-size: 14px;
+}
+
+.overview-details {
+  margin-top: 20px;
+}
+
+.tour-info {
+  display: flex;
+  align-items: center;
+}
+
+.tour-info img {
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.overview-pricing p {
+  margin-bottom: 4px;
+  font-size: 15px;
+  color: #555;
+}
+
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.user-details p {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #555;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.method-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.method-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.method-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}

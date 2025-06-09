@@ -1,0 +1,102 @@
+.booking-card-container {
+  height: 30vh; /* Fixed height */
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  margin-bottom: 25px;
+  overflow-y: auto; /* Enables vertical scrolling if content exceeds height */
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+  }
+
+  .represent-booking-image {
+    margin-right: 20px;
+    width: 35%;
+    height: 400px;
+    display: flex;
+    align-items: stretch; /* Ensures the image stretches to container height */
+
+    img {
+      width: 100%;
+      height: 100%; /* Fills the height of .represent-booking-image */
+      object-fit: cover; /* Maintains the aspect ratio */
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .booking-card-info {
+    width: 60%;
+    height: fit-content;
+
+    .booking-card-id {
+      display: flex;
+      justify-content: center;
+      color: #333;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    .booking-card-detail {
+      margin-top: 15px;
+
+      .bkc-tour-detail {
+        padding: 10px 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        overflow: hidden;
+        color: #555;
+
+        .bkc-tour-detail__icon {
+          margin-right: 5px;
+          color: #ffa500;
+        }
+
+        .bkc-tour-detail__text {
+          font-weight: 500;
+        }
+      }
+
+      .bkc-customer-detail {
+        padding: 10px 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+
+        strong {
+          font-weight: 600;
+          color: #444;
+        }
+
+        .bkc-tour-detail__text {
+          color: #666;
+        }
+      }
+    }
+
+    .booking-card-footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+
+      .warning-text {
+        color: #b22222;
+        font-size: 0.9em;
+        font-style: italic;
+      }
+    }
+  }
+}

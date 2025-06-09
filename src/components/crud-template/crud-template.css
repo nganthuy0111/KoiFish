@@ -1,0 +1,28 @@
+.modal-footer {
+    display: flex;
+    flex-direction: column; 
+    gap: 0px; 
+    align-items: stretch;
+  }
+  
+  .modal-footer .ant-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  
+  .modal-footer .ant-btn-primary {
+    background-color: #ff8a33;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-footer .ant-btn-primary:hover {
+    background-color :#ff8a33;
+  }
+  
+  .modal-footer .ant-btn:hover {
+    color: #fff;
+  }
+  

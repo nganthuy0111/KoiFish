@@ -1,0 +1,75 @@
+.tour-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+
+  img {
+    flex: 1 1 300px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }
+
+  .tour-info-details {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h4 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .info-icons {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      p {
+        margin: 0;
+        font-size: 14px;
+        color: #555;
+
+        .ticket-overview-icon {
+          margin-right: 5px;
+          color: orange;
+          font-weight: bold;
+          flex-shrink: 0;
+        }
+
+        .farm-names {
+          display: -webkit-box; /* Enables multi-line ellipsis */
+          -webkit-line-clamp: 2; /* Limit text to 2 lines */
+          -webkit-box-orient: vertical;
+          overflow: hidden; /* Hides the overflowing text */
+          text-overflow: ellipsis; /* Adds "..." at the end of the visible text */
+          white-space: normal; /* Ensures text wraps properly */
+          line-height: 1.4; /* Adjust for better spacing between lines */
+          max-height: 2.8em; /* 2 lines of text with 1.4 line height */
+        }
+      }
+    }
+  }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .tour-info {
+    flex-direction: column; /* Stack image and text vertically */
+    text-align: center;
+
+    img {
+      max-width: 100%; /* Image spans full width on smaller screens */
+      height: auto;
+    }
+
+    .tour-info-details {
+      margin-top: 20px; /* Add spacing between image and text */
+    }
+  }
+}

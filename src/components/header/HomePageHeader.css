@@ -1,0 +1,40 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100vw;
+  padding-top: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: "Work Sans", sans-serif;
+}
+
+.link-button {
+  color: gray;
+  size: 16px;
+  font-weight: bold;
+}
+
+.customer-avatar-frame {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ff8a33;
+  background-image: url("https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png");
+  background-repeat: no-repeat;
+}
+
+.custom-dropdown-menu .ant-dropdown-menu {
+   margin-right: 25px;
+   margin-top: 25px;
+}
+
+.logo{
+  border: 2px solid;
+  width: 180px;
+  border-radius: 50%;
+}

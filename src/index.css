@@ -1,0 +1,49 @@
+/* index.css or App.css */
+:root {
+  --heading-font: "Raleway", sans-serif; /* For headings */
+  --body-font: "Open Sans", sans-serif; /* For body text */
+}
+
+/* General Styling */
+body {
+  font-family: var(--body-font); /* Default font for the app */
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* Buttons and Links */
+button,
+input,
+a {
+  font-family: var(--body-font);
+  font-weight: 600;
+}
+
+/* Optional: Styling Buttons */
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}

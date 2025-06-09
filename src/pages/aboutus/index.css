@@ -1,0 +1,68 @@
+.title {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 200px;
+  .title__topic {
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    color: rgb(61, 30, 30);
+    text-shadow: 2px 2px 4px rgb(200, 111, 111);
+  }
+  .title__content {
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px 8px rgba(200, 111, 111, 0.9);
+    padding: 30px;
+    margin: auto 250px;
+  }
+  .btn__tour{
+    padding: 8px;
+    background-color: rgb(199, 156, 75);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+}
+.aboutus {
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/mountain-nature-mountain-peak-beautiful-red-landscape-powerpoint-background_1cf8782777__960_540.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .service{
+    padding: 40px;
+    margin: 40px;
+    .service__right{
+      padding: 20px;
+      margin: 20px;
+      .service__content{
+        color: rgba(29, 28, 28, 0.5);
+      }
+      p{
+        font-size: 18px;
+      }  
+    }
+    img{
+      padding: 20px;
+      margin: 20px;
+      width: 650px;
+      height: 560px;
+      object-fit: cover;
+      border-radius: 15%;
+      
+    }
+    .items{
+      display: flex;
+      gap: 50px;
+      h1{
+        color: orange;
+      }
+      p{
+        color: rgba(29, 28, 28, 0.5);
+      }
+    }
+  }
+

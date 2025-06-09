@@ -1,0 +1,60 @@
+.body{
+    min-height: 100vh;
+    padding-top: 140px;
+}
+.koi-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.koi-table thead {
+    background-color: #f5e8d9;
+}
+
+.koi-table th, 
+.koi-table td {
+    padding: 12px 16px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.koi-table img {
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.koi-table th {
+    font-weight: bold;
+    color: #333;
+}
+
+.koi-table tr:hover {
+    background-color: #f1f1f1;
+}
+.submit-order-button{
+margin: 20px; 
+  padding: 10px; 
+  background-color: #f5e8d9;
+  color: #333; 
+  border: none; 
+  cursor: pointer; 
+  float: right; 
+  border-radius: 5px;
+}
+.submit-order-button:hover{
+    background-color: #f5b537;
+}
+.backbtn{
+    font-size: 30px;
+}
+.status-input{
+    width: 30vw;
+    height: 10vh;
+    margin: 10px;
+}
